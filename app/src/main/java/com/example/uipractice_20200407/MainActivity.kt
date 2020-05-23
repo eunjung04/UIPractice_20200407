@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        loginButton.setOnClickListener {
+        loginButton.setOnLongClickListener {
 
             Log.d("로그인버튼", "버튼을 길게 누름")
-            return@setOnClickListener false
+            return@setOnLongClickListener false
 
             //return@힘수이름=>해당함수의 결과로 설정 명시.
             //return true : 롱클릭만전용처리. false : 일반클릭도 같이 실행.
