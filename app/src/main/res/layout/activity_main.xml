@@ -31,17 +31,16 @@
         android:hint="비번을 입력하세요"
         android:inputType="textPassword"/>
 
-    <TextView
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="한줄 자기 소개"/>
+        android:checked="true"
+        android:text="자동 로그인"/>
 
-    <EditText
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="자기 소개를 한줄로 입력하세요."
-        android:singleLine="true"
-        android:imeOptions="actionSearch"/>
+        android:text="로그인"/>
 
 
 
