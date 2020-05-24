@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         loginButton.setOnLongClickListener {
 
             //로그로 0부터 5까지의 숫자를 출력
+
             for (i in 0..5){
                 Log.d("for문연습", "${i}")
             }
