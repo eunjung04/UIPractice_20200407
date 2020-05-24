@@ -18,7 +18,9 @@ class MainActivity : AppCompatActivity() {
 
             //로그인버튼이 눌리면 할 일 지정.
 
-            Toast.makeText(this, "로그인 버튼 눌림", Toast.LENGTH_SHORT).show()
+            val inputEmail=emailEdt.text.toString()
+
+            Toast.makeText(this,inputEmail, Toast.LENGTH_SHORT).show()
 
         }
 
