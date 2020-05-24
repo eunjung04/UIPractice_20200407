@@ -51,6 +51,11 @@ class MainActivity : AppCompatActivity() {
 
         loginButton.setOnLongClickListener {
 
+            //로그로 0부터 5까지의 숫자를 출력
+            for (i in 0..5){
+                Log.d("for문연습", "${i}")
+            }
+
             Log.d("로그인버튼", "버튼을 길게 누름")
             return@setOnLongClickListener false
 
